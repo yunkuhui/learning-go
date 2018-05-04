@@ -1,4 +1,4 @@
-# 4ÔÂ·ÝgoÓïÑÔÑ§Ï°±Ê¼Ç
+# 4ÔÂ·Ý go ÓïÑÔÑ§Ï°±Ê¼Ç
 
 ## Ç°ÑÔ 
 4ÔÂ·Ý£¬Ñ§Ï°ÁË go ÓïÑÔ£¬ÔÚÑ§Ï°¹ý³ÌÖÐÓöµ½µÄ±È½ÏÓÐÒâË¼»òÐèÒª×¢ÒâµÄµØ·½ÔÚ´Ë¼ÇÂ¼¡£
@@ -22,33 +22,33 @@ go ÓïÑÔ²¢Ã»ÓÐÌá¹©¹Ù·½µÄ°ü¹ÜÀí¹¤¾ß£¬ËùÒÔÏÖÔÚ³£ÓÃµÄ¶¼ÊÇµÚÈý·½°ü¹ÜÀí¹¤¾ß£º
 > ×¢£ºÊ±¼äÔ­Òò£¬ÔÝÊ±»¹Ã»ÓÐ¶ÔÕâÐ©µÚÈý·½µÄ°ü¹ÜÀí¹¤¾ßµÄÊ¹ÓÃ½øÐÐÑ§Ï°£¬¾ßÌåÄÚÈÝÒÔºó²¹È«¡£
     
 #### main°ü
-* go ÓïÑÔÔÚ±àÒëµÄÊ±ºò£¬**main** °ü»á¸ù¾ÝÏµÍ³²»Í¬Éú³É²»Í¬ºó×ºµÄ¿ÉÖ´ÐÐÎÄ¼þ£¬ **main** Ö®ÍâµÄ°ü»áÉú³É **.a** ºó×ºµÄÎÄ¼þ¡£
-* **main** °üÖÐ±ØÐëÓÐÒ»¸öÃüÃûÎª **main** µÄÖ÷º¯Êý£¬×÷Îª³ÌÐòÔËÐÐÊ±µÄÖ÷Âß¼­¡£
+* go ÓïÑÔÔÚ±àÒëµÄÊ±ºò£¬main °ü»á¸ù¾ÝÏµÍ³²»Í¬Éú³É²»Í¬ºó×ºµÄ¿ÉÖ´ÐÐÎÄ¼þ£¬ main Ö®ÍâµÄ°ü»áÉú³É .a ºó×ºµÄÎÄ¼þ¡£
+* main °üÖÐ±ØÐëÓÐÒ»¸öÃüÃûÎª main µÄÖ÷º¯Êý£¬×÷Îª³ÌÐòÔËÐÐÊ±µÄÖ÷Âß¼­¡£
 
 #### ÌØÊâº¯Êý
-* mainº¯Êý£¬³ÌÐòÖ÷º¯Êý¡£
-* initº¯Êý£ºÈç¹ûÔÚ³ÌÐòÔËÐÐÖ®Ç°£¬ÐèÒªÒ»Ð©³õÊ¼»¯µÄ¹¤×÷£¬ÔòÐèÒªÓÃµ½ **init** º¯Êý£º
-* Ò»¸ö°üÖÐ¿ÉÒÔ°üº¬¶à¸öinitº¯Êý¡£
-* **init** º¯Êý»áÔÚmainº¯ÊýÖ®Ç°ÔËÐÐ¡£
-* ËùÓÐÔÚmain°üÖÐÒýÓÃµÄÆäËû°üµÄ **init** º¯ÊýÒ²»áÔÚmainº¯ÊýÖ®Ç°ÔËÐÐ¡£
+* main º¯Êý£¬³ÌÐòÖ÷º¯Êý¡£
+* init º¯Êý£ºÈç¹ûÔÚ³ÌÐòÔËÐÐÖ®Ç°£¬ÐèÒªÒ»Ð©³õÊ¼»¯µÄ¹¤×÷£¬ÔòÐèÒªÓÃµ½ init º¯Êý£º
+* Ò»¸ö°üÖÐ¿ÉÒÔ°üº¬¶à¸ö init º¯Êý¡£
+* init º¯Êý»áÔÚ main º¯ÊýÖ®Ç°ÔËÐÐ¡£
+* ËùÓÐÔÚ main °üÖÐÒýÓÃµÄÆäËû°üµÄ init º¯ÊýÒ²»áÔÚ main º¯ÊýÖ®Ç°ÔËÐÐ¡£
             
-> **go** ÓïÑÔÃ»ÓÐÒ»¸öÓÉ¹Ù·½Î¬»¤µÄÀàËÆÓÚ npm »òÕß maven µÄ°ü¹ÜÀí¹¤¾ß£¬ËùÒÔ£¬ËüÕë¶ÔÓÚµÚÈý·½°üµÄ¹ÜÀí±È½ÏÔÓÂÒ£¬ÔÚÑ¡ÓÃµÚÈý·½°üµÄÊ±ºò£¬Ó¦¸Ã½÷É÷£¡¸öÈË¸Ð¾õ **go** ÓïÑÔµÄ»ù´¡°üÏà¶ÔÓÚÆäËûÓïÑÔµÄ»ù´¡¹¦ÄÜÒªÇ¿´ó£¬ÍêÈ«¿ÉÒÔ»ùÓÚ»ù´¡°üÀ´Õë¶ÔÐèÒªµÄ¹¦ÄÜ×Ô¼ºÀ´×ö·â×°¡£
+> go ÓïÑÔÃ»ÓÐÒ»¸öÓÉ¹Ù·½Î¬»¤µÄÀàËÆÓÚ npm »òÕß maven µÄ°ü¹ÜÀí¹¤¾ß£¬ËùÒÔ£¬ËüÕë¶ÔÓÚµÚÈý·½°üµÄ¹ÜÀí±È½ÏÔÓÂÒ£¬ÔÚÑ¡ÓÃµÚÈý·½°üµÄÊ±ºò£¬Ó¦¸Ã½÷É÷£¡¸öÈË¸Ð¾õ go ÓïÑÔµÄ»ù´¡°üÏà¶ÔÓÚÆäËûÓïÑÔµÄ»ù´¡¹¦ÄÜÒªÇ¿´ó£¬ÍêÈ«¿ÉÒÔ»ùÓÚ»ù´¡°üÀ´Õë¶ÔÐèÒªµÄ¹¦ÄÜ×Ô¼ºÀ´×ö·â×°¡£
 
 ## go ÓïÑÔµÄÀàÐÍ
 
-¸öÈËÀí½âµÄgoÓïÑÔµÄÀàÐÍ·ÖÎªÈý´óÀà£º»ù´¡ÀàÐÍ£¬¼¯ºÏÀàÐÍ£¬ÌØÊâÀàÐÍ
+¸öÈËÀí½âµÄ go ÓïÑÔµÄÀàÐÍ·ÖÎªÈý´óÀà£º»ù´¡ÀàÐÍ£¬¼¯ºÏÀàÐÍ£¬ÌØÊâÀàÐÍ
     
 #### »ù´¡ÀàÐÍ
 * ²¼¶ûÐÍ£º ²»¶à½âÊÍ
 * Êý×ÖÀàÐÍ£º go ÓïÑÔµÄÊý×ÖÀàÐÍ°üÀ¨ÕûÐÎºÍ¸¡µãÀàÐÍ
-     * ¶ÔÓÚÕûÐÎ£¬¿ÉÒÔ¸ù¾Ý³¤¶È£¬°´×Ö½Ú·ÖÅä¡£goÓïÑÔÌá¹©ÁË8Î»£¬16Î»£¬32Î»ºÍ64Î»ÕûÐÎ¶ÔÓ¦µÄ¹Ø¼ü×Ö
-     * ¶ÔÓÚ¸¡µãÀàÐÍ£¬Ò²¿ÉÒÔ¸ù¾Ý³¤¶È£¬°´×Ö½Ú·ÖÅä¡£goÓïÑÔÌá¹©ÁË32Î»£¬64Î»¸¡µãÀàÐÍ¶ÔÓ¦µÄ¹Ø¼ü×Ö
+     * ¶ÔÓÚÕûÐÎ£¬¿ÉÒÔ¸ù¾Ý³¤¶È£¬°´×Ö½Ú·ÖÅä¡£go ÓïÑÔÌá¹©ÁË 8 Î»£¬ 16 Î»£¬ 32 Î»ºÍ 64 Î»ÕûÐÎ¶ÔÓ¦µÄ¹Ø¼ü×Ö
+     * ¶ÔÓÚ¸¡µãÀàÐÍ£¬Ò²¿ÉÒÔ¸ù¾Ý³¤¶È£¬°´×Ö½Ú·ÖÅä¡£ go ÓïÑÔÌá¹©ÁË 32 Î»£¬ 64 Î»¸¡µãÀàÐÍ¶ÔÓ¦µÄ¹Ø¼ü×Ö
 * ×Ö·û´®ÀàÐÍ£º²»¶à½âÊÍ
-* º¯ÊýÀàÐÍ£ºgolangÖ§³ÖÃæÏòº¯Êý±à³Ì
+* º¯ÊýÀàÐÍ£ºgolang Ö§³ÖÃæÏòº¯Êý±à³Ì
 * ½Ó¿ÚÀàÐÍ£ººóÃæÏêÏ¸½âÊÍ
-* ×Ô¶¨Òå½á¹¹ÌåÀàÐÍ£º¸öÈË½«Æäµ±×÷javaÖÐµÄbean¶ÔÏóÀ´Àí½â
+* ×Ô¶¨Òå½á¹¹ÌåÀàÐÍ£º¸öÈË½«Æäµ±×÷ java ÖÐµÄ bean ¶ÔÏóÀ´Àí½â
 
- ÔÚÄ³×ÊÁÏÉÏ²éµ½£¬×Ö·û´®ÀàÐÍÑÏ¸ñÒâÒåÉÏÀ´½²Ò²ÊÇÒýÓÃÀàÐÍ£¬µ«ÊÇÔÚstringÀàÐÍÖµ×÷Îªº¯Êý²ÎÊý´«µÝµÄÊ±ºòÒ²ÊÇÊ¹ÓÃµÄ¸±±¾£¬¸öÈË¶ÔÕâ²¿·ÖÃ»ÓÐÉî¾¿£¬Ö»ÐèÖªµÀÆäÊ¹ÓÃ·½Ê½Óë»ù´¡ÀàÐÍÏàÍ¬¼´¿É.
+ ÔÚÄ³×ÊÁÏÉÏ²éµ½£¬×Ö·û´®ÀàÐÍÑÏ¸ñÒâÒåÉÏÀ´½²Ò²ÊÇÒýÓÃÀàÐÍ£¬µ«ÊÇÔÚ string ÀàÐÍÖµ×÷Îªº¯Êý²ÎÊý´«µÝµÄÊ±ºòÒ²ÊÇÊ¹ÓÃµÄ¸±±¾£¬¸öÈË¶ÔÕâ²¿·ÖÃ»ÓÐÉî¾¿£¬Ö»ÐèÖªµÀÆäÊ¹ÓÃ·½Ê½Óë»ù´¡ÀàÐÍÏàÍ¬¼´¿É.
         
 #### ¼¯ºÏÀàÐÍ
 * Êý×éÀàÐÍ
@@ -59,27 +59,28 @@ go ÓïÑÔ²¢Ã»ÓÐÌá¹©¹Ù·½µÄ°ü¹ÜÀí¹¤¾ß£¬ËùÒÔÏÖÔÚ³£ÓÃµÄ¶¼ÊÇµÚÈý·½°ü¹ÜÀí¹¤¾ß£º
 ÇÐÆ¬³¤¶ÈÊÇÖ¸Êý×éÖÐÓÐÖµµÄÄÚ´æµØÖ·µÄ¸öÊý£¬ÇÐÆ¬µÄÈÝÁ¿ÊÇÖ¸ÇÐÆ¬Ö¸ÏòµÄÊý×éÆðÊ¼Î»ÖÃµ½Êý×éÖÕÖ¹Î»ÖÃµÄ³¤¶È¡£
 
 * mapÀàÐÍ
- goÓïÑÔÎªÁËÓ³ÉäµÄ´¦ÀíÐ§ÂÊ£¬Æäµ×²ãÊ¹ÓÃhashÀ´ÊµÏÖµÄ£¬ÄÚ´æ½á¹¹ÈçÏÂ£º![Ó³ÉäÄÚ´æÊ¾ÒâÍ¼](https://raw.githubusercontent.com/yunkuhui/learning-go/guolei/LearnNoteByGuoLei/map_struct.jpg)
+ go ÓïÑÔÎªÁËÓ³ÉäµÄ´¦ÀíÐ§ÂÊ£¬Æäµ×²ãÊ¹ÓÃ hash À´ÊµÏÖµÄ£¬ÄÚ´æ½á¹¹ÈçÏÂ£º![Ó³ÉäÄÚ´æÊ¾ÒâÍ¼](https://raw.githubusercontent.com/yunkuhui/learning-go/guolei/LearnNoteByGuoLei/map_struct.jpg)
 ÈçÉÏÍ¼ËùÊ¾ÔÚÓ³ÉäÖÐ¼üÖµ¶Ô´¢´æµÄÊ±ºò£¬»áÏÈ½«¼üÖµ¶ÔµÄ¼ü×ª»»ÎªÉ¢ÁÐÖµ£¬Ê¹ÓÃÉ¢ÁÐÖµµÄµÍÎ»À´×÷ÎªÑ¡ÔñÍ°µÄÉ¢ÁÐ¼ü¡£
 ÔÚÉÏÍ¼ÖÐÒ²¿É¿´³öÃ¿¸öÍ°µÄÄÚ´æ´æ´¢·½Ê½£¬Ò²¾ÍÊÇÓ³Éä×îÖÕµÄÄÚ´æ´æ´¢·½Ê½£ºÃ¿¸öÓ³ÉäÓÉÁ½¸öÊý×é×é³É£¬µÚÒ»¸öÊý×éÎª´æ´¢É¢ÁÐ¼ü¸ß°ËÎ»µÄÊý×é£¬µÚ¶þ¸öÊý×é»á½«¼üºÍÖµ·Ö¿ª£¬²¢´æ´¢µ½Á¬ÐøµÄÄÚ´æµ¥Ôª¡£
 µ±²Ù×÷Ó³ÉäµÄÊ±ºò£¬»áÊ×ÏÈ¸ù¾Ý¼üÖµ¶ÔÓ¦µÄÉ¢ÁÐÖµµÍÎ»À´Ñ¡ÔñÍ°£¬È»ºó¸ù¾ÝÉ¢ÁÐ¼üµÄ¸ßÎ»À´È·¶¨¶ÔÓ¦¼üÖµÔÚÄÚ´æÖÐµÄË÷Òý£¬×îÖÕÈ¡µÃÏàÓ¦µÄ¼üÖµ¶Ô¡£
 
 #### ÌØÊâÀàÐÍ
 * Ö¸ÕëÀàÐÍ£ºÖ¸ÕëÀàÐÍµÄÖµÊÇ±äÁ¿ÔÚÄÚ´æÖÐµÄµØÖ·£¬Í¨¹ýÖ¸ÕëÀàÐÍ¿ÉÒÔÖ±½Ó²Ù×÷±äÁ¿±¾ÉíµÄÖµ£¬¿ÉÒÔÍ¨¹ýÕâÖÖ·½Ê½ÊµÏÖ±äÁ¿µÄ¡°ÒýÓÃ´«µÝ¡±¡£
-* channelÀàÐÍ£ºÍ¨µÀÀàÐÍ£¬ÓÃÓÚgoroutineÖ®¼äµÄÊý¾Ý´«µÝ£¬¾ßÌåÊ¹ÓÃ·½Ê½ÔÚgotoutineÕÂ½Ú»á¾ßÌå½éÉÜ¡£
+* channel ÀàÐÍ£ºÍ¨µÀÀàÐÍ£¬ÓÃÓÚ goroutine Ö®¼äµÄÊý¾Ý´«µÝ£¬¾ßÌåÊ¹ÓÃ·½Ê½ÔÚ goroutine ÕÂ½Ú»á¾ßÌå½éÉÜ¡£
 
 #### Ð¡Àý×Ó
- ¶ÔÓÚ¼¯ºÏÀàÐÍÖÐµÄÊý×éºÍÇÐÆ¬£¬ÏÂÃæÓÐÒ»¸ö±È½ÏÓÐÈ¤µÄÐ¡Àý×Ó£¬Õâ¸öÀý×Ó´úÂëÁ¿ËäÈ»²»¶à£¬µ«ÊÇ¿ÉÒÔ±È½ÏÈ«ÃæµÄÌåÏÖsliceºÍÊý×éµÄÄÚ´æ¹ØÏµ£¬ÒÔ¼°sliceÖÐ³¤¶ÈºÍÈÝÁ¿µÄ¹ØÏµ£º
+ ¶ÔÓÚ¼¯ºÏÀàÐÍÖÐµÄÊý×éºÍÇÐÆ¬£¬ÏÂÃæÓÐÒ»¸ö±È½ÏÓÐÈ¤µÄÐ¡Àý×Ó£¬Õâ¸öÀý×Ó´úÂëÁ¿ËäÈ»²»¶à£¬µ«ÊÇ¿ÉÒÔ±È½ÏÈ«ÃæµÄÌåÏÖ slice ºÍÊý×éµÄÄÚ´æ¹ØÏµ£¬ÒÔ¼° slice ÖÐ³¤¶ÈºÍÈÝÁ¿µÄ¹ØÏµ£º
 
-        array := []int{10, 20, 30, 40, 50}
-        slice := array[1:3]           // sliceµÄÖµÎª[20, 30]
-        slice[0] = 60                 // ½«sliceË÷ÒýÎª0µÄÖµÉèÖÃÎª60
+      array := []int{10, 20, 30, 40, 50}
+      slice := array[1:3]           // sliceµÄÖµÎª[20, 30]
+      slice[0] = 60                 // ½«sliceË÷ÒýÎª0µÄÖµÉèÖÃÎª60
 	    slice[1] = 70                 // ½«sliceË÷ÒýÎª0µÄÖµÉèÖÃÎª70
 	    slice = append(slice, 80)     // ¸øsliceÇÐÆ¬×·¼ÓÒ»¸ö80µÄÖµ
 	    slice = append(slice, 90)     // ¸øsliceÇÐÆ¬×·¼ÓÒ»¸ö90µÄÖµ
 	    fmt.Println(slice)            // µÚÒ»´Î´òÓ¡sliceÇÐÆ¬
 	    fmt.Println(array)            // µÚÒ»´Î´òÓ¡arrayÊý×é
 	    slice = append(slice, 100)    // ¸øsliceÇÐÆ¬×·¼ÓÒ»¸ö100µÄÖµ
+	    slice[0] = 110                // ½«sliceË÷ÒýÎª0µÄÖµÉèÖÃÎª110
 	    fmt.Println(slice)            // µÚ¶þ´Î´òÓ¡sliceÇÐÆ¬
 	    fmt.Println(array)            // µÚ¶þ´Î´òÓ¡arrayÊý×é
 
@@ -119,31 +120,32 @@ go ÓïÑÔ²¢Ã»ÓÐÌá¹©¹Ù·½µÄ°ü¹ÜÀí¹¤¾ß£¬ËùÒÔÏÖÔÚ³£ÓÃµÄ¶¼ÊÇµÚÈý·½°ü¹ÜÀí¹¤¾ß£º
 
  Àý£º
  
-			// »ùÓÚintÀàÐÍÉùÃ÷Ò»¸öIntegerÀàÐÍ
-			type Integer int
+		// »ùÓÚintÀàÐÍÉùÃ÷Ò»¸öIntegerÀàÐÍ
+		type Integer int
 			
-			func (d * Integer) print() string {
-				// ÉùÃ÷Ò»¸ö·½·¨£¬Æä½ÓÊÕÕßÎªIntegerµÄÖ¸Õë
-				return fmt.Sprintf("Integer: %d", *d)
-			}
+		func (d * Integer) print() string {
+			// ÉùÃ÷Ò»¸ö·½·¨£¬Æä½ÓÊÕÕßÎªIntegerµÄÖ¸Õë
+			return fmt.Sprintf("Integer: %d", *d)
+		}
 			
-			// ±àÒë¿ÉÒÔÍ¨¹ý£¬µ«ÊÇÔËÐÐÊ±±¨´í
-			Integer(42).print()
+		// ±àÒë¿ÉÒÔÍ¨¹ý£¬µ«ÊÇÔËÐÐÊ±±¨´í
+		Integer(42).print()
 
-¸öÈËÀí½â£¬ golang »ñÈ¡²»µ½Ã»ÓÐ¾ä±úµÄ¶ÔÏóµÄÄÚ´æµØÖ·£¨ÈçÓÐ´íÎó»¶Ó­Ö¸Õý£©£¬ÓÉÓÚgolangµÄ±àÒëÆ÷¼ì²é²»³ö´ËÖÖ´íÎó£¬ËùÒÔÒ»¶¨Òª×¢Òâ£¡£¡£¡
+¸öÈËÀí½â£¬ golang »ñÈ¡²»µ½Ã»ÓÐ¾ä±úµÄ¶ÔÏóµÄÄÚ´æµØÖ·£¨ÈçÓÐ´íÎó»¶Ó­Ö¸Õý£©£¬ÓÉÓÚ golang µÄ±àÒëÆ÷¼ì²é²»³ö´ËÖÖ´íÎó£¬ËùÒÔÒ»¶¨Òª×¢Òâ£¡£¡£¡
 
 ## ½Ó¿Ú
 
 #### ¼ò½é
 
 go ÓïÑÔµÄ½Ó¿ÚÀàËÆÓÚ java ÖÐµÄ½Ó¿Ú£¬ÊÇ¶ÔÓ¦Ò»Àà¶ÔÏóËù¾ßÓÐµÄÌØ¶¨ÐÐÎª½øÐÐÃèÊöµÄÀàÐÍ¡£
-Óëjava²»Í¬µÄÊÇ£¬javaÐèÒªÏÔÊ¾µÄËµÃ÷¶ÔÏó¾ßÌåÊµÏÖÁËÄÄ¸ö½Ó¿Ú£¬golangÖÐÖ»ÒªÊÇ¶ÔÏóÊµÏÖÁË½Ó¿ÚµÄ·½·¨£¬¾ÍËµÃ÷¸Ã¶ÔÏóÊµÏÖÁË½Ó¿Ú¡£
+Óë java ²»Í¬µÄÊÇ£¬ java ÐèÒªÏÔÊ¾µÄËµÃ÷¶ÔÏó¾ßÌåÊµÏÖÁËÄÄ¸ö½Ó¿Ú£¬ golang ÖÐÖ»ÒªÊÇ¶ÔÏóÊµÏÖÁË½Ó¿ÚµÄ·½·¨£¬¾ÍËµÃ÷¸Ã¶ÔÏóÊµÏÖÁË½Ó¿Ú¡£
 
-####ÄÚ´æ½á¹¹
+#### ÄÚ´æ½á¹¹
 
 ½Ó¿ÚÀàÐÍµÄÄÚ´æ½á¹¹ÈçÏÂËùÊ¾£º![½Ó¿ÚÀàÐÍÄÚ´æ½á¹¹](https://raw.githubusercontent.com/yunkuhui/learning-go/guolei/LearnNoteByGuoLei/interface_struct.jpg)
-ÓÉÉÏÈç¿ÉÒÔ¿´³ö£º½Ó¿ÚÀàÐÍµÄitableÖÐ´æ·ÅµÄÊÇÊµÏÖ½Ó¿ÚµÄÊµÀý½á¹¹ÌåµÄÌØÕ÷£¬valueÖÐ´æ·ÅµÄÊÇÊµÀý½á¹¹ÌåµÄ¶ÔÏó£¬µ±Ò»¸öÊµÀý¸ø½Ó¿ÚÀàÐÍµÄ¶ÔÏó¸³ÖµÊ±£¬»á³¢ÊÔ½«ÀàÐÍºÍÆä·½·¨¼¯Ì×Èë½Ó¿ÚÀàÐÍµÄitableÖÐ£¬Èç¹û·ûºÏ·½·¨¼¯µÄÏÞÖÆÌõ¼þ£¬Ôò½«ÊµÀýµÄÄÚ´æµØÖ·´æÈëvalueÖÐ¡£
-½Ó¿Ú·½·¨¼¯µÄÏÞÖÆÌõ¼þ£ºµ±Ê¹ÓÃÊµÏÖ½Ó¿ÚµÄ½á¹¹ÌåµÄÖµ¸ø½Ó¿ÚÀàÐÍ¸³ÖµÊ±£¬½Ó¿ÚÀàÐÍµÄ·½·¨¼¯Ö»ÄÜ·ÅÖÃ½ÓÊÕÕßÎªÖµ½ÓÊÕÕßµÄÊµÏÖ½Ó¿Ú·½·¨£¬µ±Ö»ÓÃÊµÏÖÀàµÄÖ¸Õë¸ø½Ó¿ÚÀàÐÍ¸³ÖµÊ±£¬½Ó¿ÚÀàÐÍµÄ·½·¨¼¯¿ÉÒÔÊ¹ÓÃ¡¾Öµ½ÓÊÕÕß¡¿»ò¡¾Ö¸Õë½ÓÊÕÕß¡¿ÊµÏÖµÄ½Ó¿Ú·½·¨¡£ÔÚ¿ª·¢¹æÔòµÄ½Ç¶ÈÀ´¿´µÄ»°£ºµ±Ò»¸ö½á¹¹ÌåÊµÏÖÒ»¸ö½Ó¿ÚµÄ·½·¨µÄ½ÓÊÕÕßÎª¡¾Ö¸Õë½ÓÊÕÕß¡¿£¬ÔòÖ»ÓÐ¸Ã½á¹¹ÌåµÄÖ¸Õë¿ÉÒÔ¸³Öµ¸ø¸Ã½Ó¿ÚÀàÐÍ£»µ±Ò»¸ö½á¹¹ÌåÊµÏÖÒ»¸ö½Ó¿ÚµÄ·½·¨µÄ½ÓÊÕÕßÎª¡¾Öµ½ÓÊÕÕß¡¿£¬Ôò¸Ã½á¹¹ÌåµÄÖ¸ÕëºÍÖµ¶¼¿ÉÒÔ¸³Öµ¸ø¸Ã½Ó¿ÚÀàÐÍ¡££¨goÓïÑÔ×öÕâÖÖÏÞÖÆµÄÔ­ÒòÊÇ£º²ÎÕÕ¡¾·½·¨¡¿ÕÂ½Ú£©
+
+ÓÉÉÏÈç¿ÉÒÔ¿´³ö£º½Ó¿ÚÀàÐÍµÄ itable ÖÐ´æ·ÅµÄÊÇÊµÏÖ½Ó¿ÚµÄÊµÀý½á¹¹ÌåµÄÌØÕ÷£¬ value ÖÐ´æ·ÅµÄÊÇÊµÀý½á¹¹ÌåµÄ¶ÔÏó£¬µ±Ò»¸öÊµÀý¸ø½Ó¿ÚÀàÐÍµÄ¶ÔÏó¸³ÖµÊ±£¬»á³¢ÊÔ½«ÀàÐÍºÍÆä·½·¨¼¯Ì×Èë½Ó¿ÚÀàÐÍµÄ itable ÖÐ£¬Èç¹û·ûºÏ·½·¨¼¯µÄÏÞÖÆÌõ¼þ£¬Ôò½«ÊµÀýµÄÄÚ´æµØÖ·´æÈë value ÖÐ¡£
+½Ó¿Ú·½·¨¼¯µÄÏÞÖÆÌõ¼þ£ºµ±Ê¹ÓÃÊµÏÖ½Ó¿ÚµÄ½á¹¹ÌåµÄÖµ¸ø½Ó¿ÚÀàÐÍ¸³ÖµÊ±£¬½Ó¿ÚÀàÐÍµÄ·½·¨¼¯Ö»ÄÜ·ÅÖÃ½ÓÊÕÕßÎªÖµ½ÓÊÕÕßµÄÊµÏÖ½Ó¿Ú·½·¨£¬µ±Ö»ÓÃÊµÏÖÀàµÄÖ¸Õë¸ø½Ó¿ÚÀàÐÍ¸³ÖµÊ±£¬½Ó¿ÚÀàÐÍµÄ·½·¨¼¯¿ÉÒÔÊ¹ÓÃ¡¾Öµ½ÓÊÕÕß¡¿»ò¡¾Ö¸Õë½ÓÊÕÕß¡¿ÊµÏÖµÄ½Ó¿Ú·½·¨¡£ÔÚ¿ª·¢¹æÔòµÄ½Ç¶ÈÀ´¿´µÄ»°£ºµ±Ò»¸ö½á¹¹ÌåÊµÏÖÒ»¸ö½Ó¿ÚµÄ·½·¨µÄ½ÓÊÕÕßÎª¡¾Ö¸Õë½ÓÊÕÕß¡¿£¬ÔòÖ»ÓÐ¸Ã½á¹¹ÌåµÄÖ¸Õë¿ÉÒÔ¸³Öµ¸ø¸Ã½Ó¿ÚÀàÐÍ£»µ±Ò»¸ö½á¹¹ÌåÊµÏÖÒ»¸ö½Ó¿ÚµÄ·½·¨µÄ½ÓÊÕÕßÎª¡¾Öµ½ÓÊÕÕß¡¿£¬Ôò¸Ã½á¹¹ÌåµÄÖ¸ÕëºÍÖµ¶¼¿ÉÒÔ¸³Öµ¸ø¸Ã½Ó¿ÚÀàÐÍ¡££¨ go ÓïÑÔ×öÕâÖÖÏÞÖÆµÄÔ­ÒòÊÇ£º²ÎÕÕ¡¾·½·¨¡¿ÕÂ½Ú£©
 
 Àý£º
 
@@ -201,55 +203,55 @@ go ÓïÑÔµÄ½Ó¿ÚÀàËÆÓÚ java ÖÐµÄ½Ó¿Ú£¬ÊÇ¶ÔÓ¦Ò»Àà¶ÔÏóËù¾ßÓÐµÄÌØ¶¨ÐÐÎª½øÐÐÃèÊöµÄÀàÐÍ¡
 
 #### ¼ò½é
 
-¸öÈËÈÏÎªgolangÔËÐÐÐ§ÂÊ¸ßµÄÔ­ÒòÊÇÈçÏÂ¼¸µã£º
-* ±àÒëÐÍÏµÍ³ÓïÑÔ£¬±ÜÃâÁËJVMÖÐ¼ä²ãµÄÐÔÄÜÏûºÄ
-* goroutine¸ü¼òµ¥¸ßÐ§µÄÊ¹ÓÃÏµÍ³×ÊÔ´£¨´ËÖÖÐÔÄÜµÄÌáÉýÊÇ½¨Á¢ÔÚºÏÀíÊ¹ÓÃgoroutineºÍÁ¼ºÃ±àÂëµÄ»ù´¡ÉÏ£©
+¸öÈËÈÏÎª golang ÔËÐÐÐ§ÂÊ¸ßµÄÔ­ÒòÊÇÈçÏÂ¼¸µã£º
+* ±àÒëÐÍÏµÍ³ÓïÑÔ£¬±ÜÃâÁË JVM ÖÐ¼ä²ãµÄÐÔÄÜÏûºÄ
+* goroutine ¸ü¼òµ¥¸ßÐ§µÄÊ¹ÓÃÏµÍ³×ÊÔ´£¨´ËÖÖÐÔÄÜµÄÌáÉýÊÇ½¨Á¢ÔÚºÏÀíÊ¹ÓÃ goroutine ºÍÁ¼ºÃ±àÂëµÄ»ù´¡ÉÏ£©
 
-¸öÈË¶ÔÓÚgoroutineµÄÀí½âÊÇ£ºgoroutineÊÇÒ»×é½¨Á¢ÔÚCPUÏß³ÌÉÏµÄÒ»¸öÂß¼­´¦ÀíÆ÷£¬Ã¿¸öÂß¼­´¦ÀíÆ÷ÉÏ¿ÉÒÔÔËÐÐ¶à¸ögoroutine£¬µ±ÓÐ¶à¸öÂß¼­´¦ÀíÆ÷Ê±£¬ËùÓÐµÄgoroutine»áÆ½¾ù·Ö²¼µ½ËùÓÐµÄÂß¼­´¦ÀíÆ÷¡£
+¸öÈË¶ÔÓÚ goroutine µÄÀí½âÊÇ£º goroutine ÊÇÒ»×é½¨Á¢ÔÚ CPU Ïß³ÌÉÏµÄÒ»¸öÂß¼­´¦ÀíÆ÷£¬Ã¿¸öÂß¼­´¦ÀíÆ÷ÉÏ¿ÉÒÔÔËÐÐ¶à¸ö goroutine £¬µ±ÓÐ¶à¸öÂß¼­´¦ÀíÆ÷Ê±£¬ËùÓÐµÄ goroutine »áÆ½¾ù·Ö²¼µ½ËùÓÐµÄÂß¼­´¦ÀíÆ÷¡£
 
->golang¿ÉÒÔÍ¨¹ýruntime°üµÄNumCPU()º¯Êý²é¿´µ±Ç°¼ÆËã»úµÄÏß³ÌÊý¡£
-golangÒ²¿ÉÒÔÍ¨¹ýruntime°üµÄGOMAXPROCS()º¯ÊýÀ´ÉèÖÃ¹¤³ÌÔÊÐíÊ¹ÓÃµÄÂß¼­´¦ÀíÆ÷¸öÊý¡£
+> golang ¿ÉÒÔÍ¨¹ý runtime °üµÄ NumCPU() º¯Êý²é¿´µ±Ç°¼ÆËã»úµÄÏß³ÌÊý¡£
+ golang Ò²¿ÉÒÔÍ¨¹ý runtime °üµÄ GOMAXPROCS() º¯ÊýÀ´ÉèÖÃ¹¤³ÌÔÊÐíÊ¹ÓÃµÄÂß¼­´¦ÀíÆ÷¸öÊý¡£
 
 #### ¸ß²¢·¢Ê±µÄ¾ºÕù
 
-goroutineÖ®¼ä´æÔÚ¾ºÕùÎÊÌâ£¬µ±¶à¸ögoroutineÍ¬Ê±²Ù×÷Ò»¸ö¶ÔÏóÊ±£¬¾Í»á³öÏÖ¾ºÕù£¬¾ºÕùÊ±ÓÐ¿ÉÄÜ»áµ¼ÖÂÊý¾Ý¶ªÊ§¡£
+goroutine Ö®¼ä´æÔÚ¾ºÕùÎÊÌâ£¬µ±¶à¸ö goroutine Í¬Ê±²Ù×÷Ò»¸ö¶ÔÏóÊ±£¬¾Í»á³öÏÖ¾ºÕù£¬¾ºÕùÊ±ÓÐ¿ÉÄÜ»áµ¼ÖÂÊý¾Ý¶ªÊ§¡£
 
-> go¹¤³Ì¿ÉÒÔÔÚbuildÊ±¼ÓÉÏ **-race** ²ÎÊýÀ´¼ì²é³ÌÐòÊÇ·ñ´æÔÚ¾ºÕù£¬µ±¼ÓÉÏ **-race** Ê±£¬Èç¹û³ÌÐò´æÔÚ¾ºÕùµÄÇé¿öÔò±àÒëÊ§°Ü
+> go ¹¤³Ì¿ÉÒÔÔÚbuildÊ±¼ÓÉÏ **-race** ²ÎÊýÀ´¼ì²é³ÌÐòÊÇ·ñ´æÔÚ¾ºÕù£¬µ±¼ÓÉÏ **-race** Ê±£¬Èç¹û³ÌÐò´æÔÚ¾ºÕùµÄÇé¿öÔò±àÒëÊ§°Ü
 
 #### ×èÖ¹¾ºÕùµÄ·½·¨
 
 * Ô­×Óº¯Êý
-Õë¶ÔÓÚintÀàÐÍ£¬golangÉèÖÃÁËÏàÓ¦µÄÔ­×Óº¯Êý¡¾atomic¡¿£¬Í¨¹ýÔ­×Óº¯Êý¿ÉÒÔÊµÏÖgoroutineÖ®¼äµÄÍ¬²½¡£
+Õë¶ÔÓÚÊý×ÖÀàÐÍ£¬ golang ÉèÖÃÁËÏàÓ¦µÄÔ­×Óº¯Êý **atomic** £¬Í¨¹ýÔ­×Óº¯Êý¿ÉÒÔÊµÏÖ goroutine Ö®¼äµÄÍ¬²½¡£
 
 * »¥³âËø
-golangÔÚsync»ù´¡°üÖÐÌá¹©ÁË¡¾mutex¡¿£¬Í¨¹ý¡¾mutex¡¿·½·¨¿ÉÒÔËø×¡Ä³¸ö´úÂëÆ¬¶Î£¬Ê¹ÆäÔÚgoroutineÖ®¼äÍ¬²½Ö´ÐÐ¡£
+golang ÔÚ sync »ù´¡°üÖÐÌá¹©ÁË **mutex** £¬Í¨¹ý **mutex** ·½·¨¿ÉÒÔËø×¡Ä³¸ö´úÂëÆ¬¶Î£¬Ê¹ÆäÔÚ goroutine Ö®¼äÍ¬²½Ö´ÐÐ¡£
 
 * Í¨µÀ£¨channel£©
-golangÍ¨µÀµÄÓÐ×èÈûµÄ»úÖÆ£¬µ±Í¨µÀÖ»ÓÐÊäÈë»òÕßÖ»ÓÐÊä³öµÄÊ±ºò£¬»á×èÈûgotoutineµÄÔËÐÐ£¬Òò´Ë£¬¿ÉÒÔÍ¨¹ýchannelµÄ×èÈûÀ´¿ØÖÆgoroutineÖ®¼äµÄÍ¬²½ÎÊÌâ¡£
+golang Í¨µÀµÄÓÐ×èÈûµÄ»úÖÆ£¬µ±Í¨µÀÖ»ÓÐÊäÈë»òÕßÖ»ÓÐÊä³öµÄÊ±ºò£¬»á×èÈû gotoutine µÄÔËÐÐ£¬Òò´Ë£¬¿ÉÒÔÍ¨¹ý channel µÄ×èÈûÀ´¿ØÖÆ goroutine Ö®¼äµÄÍ¬²½ÎÊÌâ¡£
 
-Ô­×Óº¯ÊýµÄÊ¹ÓÃÖ»ÄÜÕë¶ÔÓÚÊý×ÖÀàÐÍ£¬ÓÐÒ»¶¨µÄÏÞÖÆ£¬¶ø»¥³âËøÊÇÖ±½ÓËø¶¨´úÂëÆ¬¶Î£¬²»Áé»î£¬ËùÒÔ¾ø´ó¶àÊý¶¼»áÊ¹ÓÃchannelµÄ×èÈû»úÖÆÀ´ÊµÏÖgoroutineµÄÍ¬²½£¬±ÜÃâ¾ºÕùµÄÎÊÌâ¡£
+Ô­×Óº¯ÊýµÄÊ¹ÓÃÖ»ÄÜÕë¶ÔÓÚÊý×ÖÀàÐÍ£¬ÓÐÒ»¶¨µÄÏÞÖÆ£¬¶ø»¥³âËøÊÇÖ±½ÓËø¶¨´úÂëÆ¬¶Î£¬²»Áé»î£¬ËùÒÔ¾ø´ó¶àÊý¶¼»áÊ¹ÓÃ channel µÄ×èÈû»úÖÆÀ´ÊµÏÖ goroutine µÄÍ¬²½£¬±ÜÃâ¾ºÕùµÄÎÊÌâ¡£
 
 #### Ó¦ÓÃ
 
-¹ØÓÚgoroutineºÍchannelµÄÐ­×÷µÄÓ¦ÓÃ£¨¸öÈËÏëµ½µÄÓ¦ÓÃ£¬²»È«Ãæ£¬ÒÔºóÏëµ½ËæÊ±×·¼Ó£©£º
+¹ØÓÚ goroutine ºÍ channel µÄÐ­×÷µÄÓ¦ÓÃ£¨¸öÈËÏëµ½µÄÓ¦ÓÃ£¬²»È«Ãæ£¬ÒÔºóÏëµ½ËæÊ±×·¼Ó£©£º
 
-* Í¨¹ýgoroutineºÍÎÞ»º³åchannel¿ØÖÆ³ÌÐòµÄÉúÃüÖÜÆÚ£¬ÀýÈç£ºÒ»¸öweb·þÎñÔÚÆô¶¯µÄÊ±ºòÍ¬Ê±Æô¶¯Ò»¸ögoroutine£¬ÔÚgoroutineÖÐÊ¹ÓÃchannelÀ´½ÓÊÕÏµÍ³µÄÖÕÖ¹ÐÅºÅ£¨ctrl+c»òÕßkillÃüÁî£©¡£µ±channelÃ»ÓÐ½ÓÊÕµ½³ÌÐòµÄÖÕÖ¹ÐÅºÅÊ±£¬µ±Ç°channelÊÇ×èÈûµÄ£¬µ¼ÖÂµ±Ç°goroutineÔÝÊ±Í£Ö¹ÔËÐÐ£¬Ö»ÓÐµ±½ÓÊÜµ½ÖÕÖ¹ÐÅºÅÊ±£¬channelÍ£Ö¹×èÈû£¬Ö´ÐÐgoroutineºóÐøµÄ·þÎñ¹Ø±ÕÂß¼­¡£¹ý´Ë·½·¨¿ÉÒÔ¿ØÖÆÒ»¸öweb·þÎñµÄÉúÃüÖÜÆÚ
+* Í¨¹ý goroutine ºÍÎÞ»º³å channel ¿ØÖÆ³ÌÐòµÄÉúÃüÖÜÆÚ£¬ÀýÈç£ºÒ»¸ö web ·þÎñÔÚÆô¶¯µÄÊ±ºòÍ¬Ê±Æô¶¯Ò»¸ö goroutine £¬ÔÚ goroutine ÖÐÊ¹ÓÃ channel À´½ÓÊÕÏµÍ³µÄÖÕÖ¹ÐÅºÅ£¨ ctrl+c »òÕß kill ÃüÁîµÈ£©¡£µ± channel Ã»ÓÐ½ÓÊÕµ½³ÌÐòµÄÖÕÖ¹ÐÅºÅÊ±£¬µ±Ç° channel ÊÇ×èÈûµÄ£¬µ¼ÖÂµ±Ç° goroutine ÔÝÊ±Í£Ö¹ÔËÐÐ£¬Ö»ÓÐµ±½ÓÊÜµ½ÖÕÖ¹ÐÅºÅÊ±£¬ channel Í£Ö¹×èÈû£¬Ö´ÐÐ goroutine ºóÐøµÄ·þÎñ¹Ø±ÕÂß¼­¡£¹ý´Ë·½·¨¿ÉÒÔ¿ØÖÆÒ»¸ö web ·þÎñµÄÉúÃüÖÜÆÚ
 
-* Í¨¹ýgoroutineºÍÓÐ»º³åchannelÊµÏÖ¿ÉÑ­»·ÀûÓÃ×ÊÔ´µÄ¹ÜÀí³Ø£¬ÀýÈç£º¿ÉÒÔ´´½¨¶à¸öDBÁ¬½Ó·Åµ½ÓÐ»º³åchannelÖÐ£»ÔÚÐèÒªÊ¹ÓÃDBÁ¬½ÓµÄÊ±ºòÖ±½ÓÔÚchannelÖÐÈ¡³öDBÁ¬½Ó¶ÔÏó£¬Ê¹ÓÃÖ®ºó·Å»ØchannelÍ¨µÀÖÐ£»¸ù¾ÝchannelµÄ×èÈûÌØÐÔ£¬µ±channelÖÐÃ»ÓÐ¿ÉÓÃµÄDBÁ¬½Ó¶ÔÏóÊ±£¬»á×èÈûµ÷ÓÃDBÁ¬½ÓµÄ³ÌÐò£¬ÖªµÀÆäËûgoroutineÊ¹ÓÃÍêDBÁ¬½Ó²¢½«Æä·µ»¹¸øchannelÖ®ºó£¬²Å»áÖØÐÂ¼¤»îÖ®Ç°×èÈûµÄgoroutine£¬ÕâÒ»µãºÜ·ûºÏ×ÊÔ´¹ÜÀí³ØµÄÌØÐÔ¡£
+* Í¨¹ý goroutine ºÍÓÐ»º³å channel ÊµÏÖ¿ÉÑ­»·ÀûÓÃ×ÊÔ´µÄ¹ÜÀí³Ø£¬ÀýÈç£º¿ÉÒÔ´´½¨¶à¸öDBÁ¬½Ó·Åµ½ÓÐ»º³å channel ÖÐ£»ÔÚÐèÒªÊ¹ÓÃDBÁ¬½ÓµÄÊ±ºòÖ±½ÓÔÚ channel ÖÐÈ¡³öDBÁ¬½Ó¶ÔÏó£¬Ê¹ÓÃÖ®ºó·Å»Ø channel Í¨µÀÖÐ£»¸ù¾Ý channel µÄ×èÈûÌØÐÔ£¬µ± channel ÖÐÃ»ÓÐ¿ÉÓÃµÄDBÁ¬½Ó¶ÔÏóÊ±£¬»á×èÈûµ÷ÓÃDBÁ¬½ÓµÄ³ÌÐò£¬ÖªµÀÆäËû goroutine Ê¹ÓÃÍê DB Á¬½Ó²¢½«Æä·µ»¹¸ø channel Ö®ºó£¬²Å»áÖØÐÂ¼¤»îÖ®Ç°×èÈûµÄ goroutine £¬ÕâÒ»µãºÜ·ûºÏ×ÊÔ´¹ÜÀí³ØµÄÌØÐÔ¡£
 
-* Í¨¹ýgoroutineºÍÎÞ»º³åÍ¨µÀ¼´Ê±´¦ÀíµÄÌØÐÔ£¬´´½¨Ïß³Ì¹ÜÀí³Ø£¬ÊµÏÖ¿É¿ØÏß³ÌÊýµÄÅú´¦Àí¡£
+* Í¨¹ý goroutine ºÍÎÞ»º³åÍ¨µÀ¼´Ê±´¦ÀíµÄÌØÐÔ£¬´´½¨Ïß³Ì¹ÜÀí³Ø£¬ÊµÏÖ¿É¿ØÏß³ÌÊýµÄÅúÁ¿´¦Àí¡£
 
-#### select¹Ø¼ü×Ö
+#### select ¹Ø¼ü×Ö
 
-Í¨¹ýselect¹Ø¼ü×Ö¿ÉÒÔÊµÏÖÀàËÆÓÚswitchµÄÑ¡ÔñÓï¾ä£¬Ëü»áÊµÊ±µÄ½ÓÊÕchannelÖÐ´«µÝµÄ¶ÔÏó£¬Èç¹ûchannelÖÐÃ»ÓÐ¶ÔÏó´«ÈëµÄÊ±ºòÔò×èÈû¡££¨ÓÐdefault·ÖÖ§µÄ»°¾Í»áÖ´ÐÐdefault·ÖÖ§¶ø²»»á×èÈû£©
+Í¨¹ý select ¹Ø¼ü×Ö¿ÉÒÔÊµÏÖÀàËÆÓÚ switch µÄÑ¡ÔñÓï¾ä£¬Ëü»áÊµÊ±µÄ½ÓÊÕ channel ÖÐ´«µÝµÄ¶ÔÏó£¬Èç¹û channel ÖÐÃ»ÓÐ¶ÔÏó´«ÈëµÄÊ±ºòÔò×èÈû¡££¨ÓÐ default ·ÖÖ§µÄ»°¾Í»áÖ´ÐÐ default ·ÖÖ§¶ø²»»á×èÈû£©
 
 ## ÆäËûÐ¡Ï¸½Ú£¨´Ë²¿·ÖÎª¸öÈË±Ê¼Ç£¬ËæÊ±²¹³ä£©
 
-#### newºÍmakeµÄÇø±ð
+#### new ºÍ make µÄÇø±ð
 
-* new¿ÉÒÔÊÊÓÃËùÓÐÀàÐÍ£¬Ê¹ÓÃnew¹Ø¼ü×Ö·µ»ØµÄÊÇ¶ÔÓ¦ÀàÐÍµÄÖ¸Õë¡£
-* makeÖ»ÊÊÓÃÓÚarray£¬alice£¬map£¬channel£¬·µ»ØµÄÊÇ¶ÔÏóµÄÖµ¡£
-> ×¢Òâ£ºmapÀàÐÍÔÚ×ö³õÊ¼»¯µÄÊ±ºò²»ÄÜµ¥´¿µÄÉùÃ÷Îªnil£¬±ØÐëÊ¹ÓÃmakeº¯Êý¶ÔÆä·ÖÅäÄÚ´æ¡£
+* new ¿ÉÒÔÊÊÓÃËùÓÐÀàÐÍ£¬Ê¹ÓÃnew¹Ø¼ü×Ö·µ»ØµÄÊÇ¶ÔÓ¦ÀàÐÍµÄÖ¸Õë¡£
+* make Ö»ÊÊÓÃÓÚ array £¬ alice £¬ map £¬ channel £¬·µ»ØµÄÊÇ¶ÔÏóµÄÖµ¡£
+> ×¢Òâ£º map ÀàÐÍÔÚ×ö³õÊ¼»¯µÄÊ±ºò²»ÄÜµ¥´¿µÄÉùÃ÷Îª nil £¬±ØÐëÊ¹ÓÃ make º¯Êý¶ÔÆä·ÖÅäÄÚ´æ¡£
 
 #### ½á¹¹ÌåµÄ¶¨Òå·½Ê½
 
@@ -275,10 +277,10 @@ golangÍ¨µÀµÄÓÐ×èÈûµÄ»úÖÆ£¬µ±Í¨µÀÖ»ÓÐÊäÈë»òÕßÖ»ÓÐÊä³öµÄÊ±ºò£¬»á×èÈûgotoutineµÄÔËÐ
 
 #### Öµ³õÊ¼»¯·½Ê½
 
-ÔÚgoÖÐ£¬Í¨³£Ê¹ÓÃ **var** ¹Ø¼ü×Ö×öÃ»ÓÐ¸³ÖµµÄ³õÊ¼»¯£¬Ê¹ÓÃ **:=** ×öÓÐ¸³ÖµµÄ³õÊ¼»¯¡£
+ÔÚ go ÖÐ£¬Í¨³£Ê¹ÓÃ **var** ¹Ø¼ü×Ö×öÃ»ÓÐ¸³ÖµµÄ³õÊ¼»¯£¬Ê¹ÓÃ **:=** ×öÓÐ¸³ÖµµÄ³õÊ¼»¯¡£
 Àý£º
 
 	var slice []string
 	array := test.NewArray()
 
-ÕâÃ´×öµÄÔ­ÒòÊÇÊ¹ÓÃ **var** ¹Ø¼ü×Ö±ØÐë¸ø±äÁ¿Ö¸¶¨ÀàÐÍ£¬¶øÓÐÐ©ÀàÐÍµÄ×÷ÓÃÓÚÖ»¿ÉÓÃÓÚÆä°üÄÚ£¬¶øÔÚ°üÍâÊÇ²»ÄÜÊ¹ÓÃµÄ£»¶ø **:=** ¿ÉÒÔÊ¡ÂÔÖµµÄÀàÐÍ£¬²»¹ÜÆäÀàÐÍÊÇË½ÓÐµÄ»¹ÊÇ¹«¿ªµÄ£¬go¶¼»á×Ô¶¯Ê¶±ðÆäÀàÐÍ¡£
+ÕâÃ´×öµÄÔ­ÒòÊÇÊ¹ÓÃ **var** ¹Ø¼ü×Ö±ØÐë¸ø±äÁ¿Ö¸¶¨ÀàÐÍ£¬¶øÓÐÐ©ÀàÐÍµÄ×÷ÓÃÓÚÖ»¿ÉÓÃÓÚÆä°üÄÚ£¬¶øÔÚ°üÍâÊÇ²»ÄÜÊ¹ÓÃµÄ£»¶ø **:=** ¿ÉÒÔÊ¡ÂÔÖµµÄÀàÐÍ£¬²»¹ÜÆäÀàÐÍÊÇË½ÓÐµÄ»¹ÊÇ¹«¿ªµÄ£¬ go ¶¼»á×Ô¶¯Ê¶±ðÆäÀàÐÍ¡£
