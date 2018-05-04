@@ -109,8 +109,7 @@
 
   go语言精确计算，可以使用第3方类库 `github.com/shopspring/decimal`。如相加：
      
-        float64 = decimal.NewFromFloat(变量1).Add(decimal.NewFromFloat(变量2)).Float64()
-    
+        float64 = decimal.NewFromFloat(变量1).Add(decimal.NewFromFloat(变量2)).Float64()    
   
 * 实现
   
