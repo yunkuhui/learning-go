@@ -33,15 +33,19 @@
       w,_ = pdf.MeasureTextWidth("字符串")
         
   **注意：**在pdf页面中，一个中文字符占宽是一个英文字符的双倍。
+  
 * X，Y的起始位置：从页面左上角开始（X：0，Y：0），横向为X轴，竖向为Y轴，坐标往右和往下为正向
 
-### 使用自己个人封装的代码生成pdf表格(源代码文件：code/pdfTableService.go)
+### 使用自己个人封装的代码生成pdf表格
+
+封装的代码尚未经过实践，不管是构思或是细节，还需在实践中不断修改和补充。
+(源代码文件：leiyunran_learning_note/code/pdfTableService.go)
 
 #### 表格对象结构
 
+表格对象中，包含表格左上角的位置和行数组，每个行元素中，包含单元格数组。每个单元格元素中，包含各自的字体配置、内容以及背景颜色等。绘制表格时，需要双for循环，分别遍历每一行以及行中的每一个单元格。
 
-
-#### 功能调用
+#### 功能使用
 
 * 创建表格对象
 
@@ -87,8 +91,8 @@
       table.SetPage(width float64, height float64, bottomMargin float64, topMargin float64)
       
 * 执行绘制pdf表格
-      
-      table.Draw() (gopdf.GoPdf, error)
+
+      table.Draw() (gopdf.GoPdf, error)    
     
 * 创建表头行
 
@@ -117,10 +121,14 @@
 
       cell.SetText(text string, leftMargin float64, topMargin float64)
       
+  **注意：**设置单元格内容时，会自动计算单元格需要的高度，如果高度大于行高，则修改行高
+      
 * 设置单元格字体
       
       // 默认使用table中设置的字体样式
       cell.SetFont(family string, style string, size int)
+ 
+  **注意：**设置单元格字体时，会自动计算单元格需要的高度，如果高度大于行高，则修改行高
       
 * 设置单元格字体颜色
 
