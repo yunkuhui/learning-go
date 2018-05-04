@@ -15,6 +15,15 @@
       var data []byte
       data, _ = ioutil.ReadFile("conf/config.json")
       
+  json解析，可以使用beego官方提供的解析方式，转为结构体；也可以使用第3方类库动态解析json。以下为使用 `github.com/bitly/go-simplejsongithub.com/bitly/go-simplejson`类库动态解析json
+
+      // 动态解析json;data为[]byte类型
+      var json simplejson.Json
+      json, _ = simplejson.NewJson(data)      
+      arr, _ := json.Get("key1").Get("array").Array()
+      i, _ := json.Get("key2").Get("int").Int()
+      ms := json.Get("key3").Get("string").MustString()
+      f := json.Get("key4").Get("float").MustFloat64()
   
 * mysql数据库
 
