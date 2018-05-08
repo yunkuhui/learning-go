@@ -27,7 +27,7 @@
   
 * mysql 数据库
 
-  可通过工具（doc 命令行：`bee api 项目名称 -conn=root:root@tcp(127.0.0.1:3306)/test?charset=utf8`）生成 mysql 数据库对应的 model。  
+  可通过框架自带的工具（doc 命令行：`bee api 项目名称 -conn=root:root@tcp(127.0.0.1:3306)/test?charset=utf8`）生成 mysql 数据库对应的 model。  
   初始化连接数据库一般放在 init 函数中。go 文件中，如果有 init 函数，将会在文件加载时自动调用。beego 支持多种查询 mysql 的方式。比如原生 sql 查询，同时可以使用占位符的方式。
   
   配置 mysql 数据库连接参数时，最好设置时区 `loc=Asia%2FShanghai`。beego 默认的时间是国际 UTC 时间。结构体中对应的时间属性，可以使用 `time.Time`
