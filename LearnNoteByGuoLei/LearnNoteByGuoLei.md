@@ -231,7 +231,7 @@ go 语言的接口类似于 java 中的接口，是对应一类对象所具有�
 
 实现了接口的结构体对象可以赋值给相应的接口类型，以此来统一处理一类对象。
 
-## gotoutine
+## goroutine
 
 #### 简介
 
@@ -261,7 +261,7 @@ goroutine 之间存在竞争问题，当多个 goroutine 同时操作一个对�
  golang 在 sync 基础包中提供了 **mutex** ，通过 **mutex** 方法可以锁住某个代码片段，使其在 goroutine 之间同步执行。
 
 * 通道（channel）
- golang 通道的有阻塞的机制，当通道只有输入或者只有输出的时候，会阻塞 gotoutine 的运行，因此，可以通过 channel 的阻塞来控制 goroutine 之间的同步问题。
+ golang 通道的有阻塞的机制，当通道只有输入或者只有输出的时候，会阻塞 goroutine 的运行，因此，可以通过 channel 的阻塞来控制 goroutine 之间的同步问题。
 
 原子函数的使用只能针对于数字类型，有一定的限制，而互斥锁是直接锁定代码片段，不灵活，所以绝大多数都会使用 channel 的阻塞机制来实现 goroutine 的同步，避免竞争的问题。
 
