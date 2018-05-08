@@ -1,8 +1,8 @@
-# beego 框架学习心得
+# [beego 框架](https://beego.me/)学习心得
 
 * 读取 conf 文件配置
 
-  框架默认配置文件为：app.conf，可通过 `beego.AppConfig.String("key")` 来获取配置文件中相应的 value 值。可以配置 json 和 xml 文件，读取文件路径使用相对路径。
+  beego 框架默认配置文件为：app.conf，可通过 `beego.AppConfig.String("key")` 来获取配置文件中相应的 value 值。可以配置 json 和 xml 文件，读取文件路径使用相对路径。
 
       // 在 app.conf 文件中配置数据库连接
       test = root:root@tcp(127.0.0.1:3306)/test?charset=utf8&loc=Asia%2FShanghai
